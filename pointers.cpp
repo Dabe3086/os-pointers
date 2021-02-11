@@ -36,7 +36,7 @@ int main(int argc, char **argv)
     int i;
     for (i = 0; i < student.n_assignments; i++)
     {
-        std::string message = "Please enter grade for assignment " +  std::to_string(i) + " : ";
+        std::string message = "Please enter grade for assignment " +  std::to_string(i) + ": ";
         student.grades[i] = promptDouble(message, 1, 1000);
     }
 
